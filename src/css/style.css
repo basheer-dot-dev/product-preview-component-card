@@ -128,8 +128,14 @@ main {
 
     .cto-button {
         width: 280px;
-        margin: 0px auto;
+        margin: 20px auto;
 
+    }
+    .brand-name {
+        margin: 15px 0px;
+    }
+    .description {
+        margin: 10px 0px;
     }
 }
 
@@ -155,11 +161,11 @@ main {
 
     .cto-button {
         width: 100%;
+    margin: 30px auto;
     }
 }
 
 .cto-button {
-    margin: 20px auto;
     background-color: hsl(158, 36%, 37%);
     outline: none;
     border: none;
@@ -175,6 +181,7 @@ main {
 .cto-button:hover {
     background-color: hsl(30, 38%, 92%);
     color: hsl(158, 36%, 37%);
+    border: 2px solid hsl(212, 21%, 14%);
 }
 
 .prices {
