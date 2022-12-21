@@ -25,13 +25,8 @@ body {
     align-content: center;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+.brand-name, .brand-type, .description {
+    padding: 10px 0px;
 }
 
 .brand-type,
@@ -113,7 +108,7 @@ main {
     }
 
     .img {
-        background-image: url('../images/image-product-mobile.jpg');
+        background-image: url('images/image-product-mobile.jpg');
         height: 240px;
         width: 340px;
         border-top-right-radius: 5px;
@@ -147,7 +142,7 @@ main {
     }
 
     .img {
-        background-image: url('../images/image-product-desktop.jpg');
+        background-image: url('images/image-product-desktop.jpg');
         width: 300px;
         height: 450px;
         border-bottom-left-radius: 5px;
@@ -179,10 +174,9 @@ main {
 }
 
 .cto-button:hover {
-    background-color: hsl(30, 38%, 92%);
-    color: hsl(158, 36%, 37%);
-    border: 2px solid hsl(212, 21%, 14%);
-}
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);}
 
 .prices {
     display: flex;
